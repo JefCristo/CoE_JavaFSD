@@ -1,0 +1,26 @@
+Log Analysis Report
+Generated at: 2025-02-02T21:27:07.9837974
+Total lines processed: 19
+
+=== Summary ===
+SUCCESS: 3 occurrences
+ERROR: 4 occurrences
+WARNING: 3 occurrences
+
+=== Detailed Findings ===
+--- SUCCESS Lines ---
+SUCCESS: 1 occurrences
+--- SUCCESS Lines ---
+2024-02-02 10:04:00 SUCCESS: Connection established
+
+--- ERROR Lines ---
+ERROR: 2 occurrences
+--- ERROR Lines ---
+2024-02-02 10:02:00 ERROR: Database connection failed
+2024-02-02 10:05:00 ERROR: Invalid input received
+
+--- WARNING Lines ---
+WARNING: 1 occurrences
+--- WARNING Lines ---
+2024-02-02 10:01:00 WARNING: Low memory warning
+

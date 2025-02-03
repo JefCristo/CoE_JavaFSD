@@ -1,0 +1,4 @@
+Log File Analysis Results:
+ERROR: 4
+INFO: 0
+WARNING: 3
