@@ -1,0 +1,91 @@
+--- Library System Menu ---
+1. Add Book
+2. Add User
+3. Borrow Book
+4. Return Book
+5. Reserve Book
+6. Search Book
+7. Exit and Save Data
+Enter your choice: 1
+Enter Book Title: java
+Enter Book Author: sun
+Enter Book ISBN: 001
+Book added successfully.
+
+--- Library System Menu ---
+1. Add Book
+2. Add User
+3. Borrow Book
+4. Return Book
+5. Reserve Book
+6. Search Book
+7. Exit and Save Data
+Enter your choice: 2
+Enter User Name: rony
+Enter User ID: 101
+User added successfully.
+
+--- Library System Menu ---
+1. Add Book
+2. Add User
+3. Borrow Book
+4. Return Book
+5. Reserve Book
+6. Search Book
+7. Exit and Save Data
+Enter your choice: 3
+Enter Book ISBN to borrow: 001
+Enter User ID: 101
+User 101 borrowed "java".
+
+--- Library System Menu ---
+1. Add Book
+2. Add User
+3. Borrow Book
+4. Return Book
+5. Reserve Book
+6. Search Book
+7. Exit and Save Data
+Enter your choice: 4
+Enter Book ISBN to return: 001
+Enter User ID: 101
+User 101 returned the book with ISBN 001.
+
+--- Library System Menu ---
+1. Add Book
+2. Add User
+3. Borrow Book
+4. Return Book
+5. Reserve Book
+6. Search Book
+7. Exit and Save Data
+Enter your choice: 5
+Enter Book ISBN to reserve: 001
+Enter User ID: 101
+Book with ISBN 001 has been reserved for user 101.
+User 101 reserved the book with ISBN 001.
+
+--- Library System Menu ---
+1. Add Book
+2. Add User
+3. Borrow Book
+4. Return Book
+5. Reserve Book
+6. Search Book
+7. Exit and Save Data
+Enter your choice: 6
+Enter Book Title to search: java
+Book found: "java" by sun (ISBN: 001)
+
+--- Library System Menu ---
+1. Add Book
+2. Add User
+3. Borrow Book
+4. Return Book
+5. Reserve Book
+6. Search Book
+7. Exit and Save Data
+Enter your choice: 7
+Library data saved successfully.
+Data saved. Exiting the system.
+PS D:\Documents\CoE_JavaFSD\lms> 
