@@ -1,0 +1,83 @@
+
+Welcome to Fee Report Software
+1. Admin Login
+2. Accountant Login
+3. Exit
+Enter your choice: 1
+Enter admin username: admin
+Enter admin password: admin123
+Admin login successful.
+
+--- Admin Menu ---
+1. Add Accountant
+2. View Accountants
+3. Update Accountant
+4. Delete Accountant
+5. Logout
+Enter your choice: 2
+--- Accountants List ---
+Accountant [id=1, name=Alice Brown, email=alice.brown@example.com]
+Accountant [id=2, name=Bob Smith, email=bob.smith@example.com]
+Accountant [id=3, name=Charlie Davis, email=charlie.davis@example.com]
+
+--- Admin Menu ---
+1. Add Accountant
+2. View Accountants
+3. Update Accountant
+4. Delete Accountant
+5. Logout
+Enter your choice: 5
+Admin logged out.
+
+Welcome to Fee Report Software
+1. Admin Login
+2. Accountant Login
+3. Exit
+Enter your choice: 2
+Enter Accountant Email: charlie.davis@example.com
+Enter Accountant Password: pass789
+Accountant login successful.
+
+--- Accountant Menu ---
+1. Add Student
+2. View Students
+3. Check Due Fee (List Students with Due > 0)
+4. Logout
+Enter your choice: 2
+--- Students List ---
+ID: 1, Name: DoeEmail: johndoe@example.comCourse: Computer ScienceFee: 5000.0Paid: 3000.0Due: 2000.0Address: 123 Main St, City, CountryPhone Number: 1234567890
+ID: 2, Name: Jane SmithEmail: janesmith@example.comCourse: Business AdministrationFee: 6000.0Paid: 6000.0Due: 0.0Address: 456 Park Ave, City, CountryPhone Number: 0987654321
+ID: 3, Name: Michael JohnsonEmail: michaelj@example.comCourse: Electrical EngineeringFee: 7000.0Paid: 4000.0Due: 3000.0Address: 789 Broadway, City, CountryPhone Number: 1122334455
+
+--- Accountant Menu ---
+1. Add Student
+2. View Students
+3. Check Due Fee (List Students with Due > 0)
+4. Logout
+Enter your choice: 3
+--- Students with Due Fee ---
+Note: Please check the list above for students with due fee > 0.
+ID: 1, Name: Doe, Email: johndoe@example.com, Course: Computer Science, Fee: 5000.0, Paid: 3000.0, Due: 2000.0, Address: 123 Main St, City, Country, Phone: 1234567890
+ID: 3, Name: Michael Johnson, Email: michaelj@example.com, Course: Electrical Engineering, Fee: 7000.0, Paid: 4000.0, Due: 3000.0, Address: 789 Broadway, City, Country, Phone: 1122334455
+
+--- Accountant Menu ---
+1. Add Student
+2. View Students
+3. Check Due Fee (List Students with Due > 0)
+4. Logout
+Enter your choice: 4
+Accountant logged out.
+
+Welcome to Fee Report Software
+1. Admin Login
+2. Accountant Login
+3. Exit
+Enter your choice: 5
+Invalid choice.
+
+Welcome to Fee Report Software
+1. Admin Login
+2. Accountant Login
+3. Exit
+Enter your choice: 3
+Exiting...
