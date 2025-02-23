@@ -1,0 +1,60 @@
+{
+    "articles": [
+        {
+            "id": "1",
+            "title": "Global Climate Summit 2025: Breakthrough Agreement",
+            "category": "politics",
+            "summary": "World leaders reach a historic agreement to cut carbon emissions by 50% by 2030.",
+            "content": "At the Global Climate Summit held in Paris on February 15, 2025, representatives from over 190 countries signed a landmark accord to reduce global carbon emissions by 50% by 2030, marking a pivotal step toward combating climate change. The agreement includes financial aid for developing nations and innovative renewable energy initiatives.",
+            "author": "Sarah Thompson",
+            "date": "2025-02-15",
+            "multimedia": [
+                {"type": "image", "src": "https://example.com/climate-summit.jpg", "title": "Climate Summit 2025"},
+                {"type": "video", "src": "https://example.com/climate-agreement.mp4", "title": "Summit Highlights"}
+            ],
+            "comments": []
+        },
+        {
+            "id": "2",
+            "title": "Quantum Computing Breakthrough in Silicon Valley",
+            "category": "technology",
+            "summary": "A new quantum computer achieves unprecedented processing speeds, revolutionizing tech.",
+            "content": "On February 10, 2025, QuantumTech Inc. in Silicon Valley unveiled a quantum computer capable of performing 1 trillion calculations per second, outstripping classical computers by orders of magnitude. This breakthrough promises to transform cryptography, AI, and scientific research.",
+            "author": "Michael Chen",
+            "date": "2025-02-10",
+            "multimedia": [
+                {"type": "video", "src": "https://example.com/quantum-tech.mp4", "title": "Quantum Demo"},
+                {"type": "image", "src": "https://example.com/quantum-computer.jpg", "title": "Quantum Computer Lab"}
+            ],
+            "comments": []
+        },
+        {
+            "id": "3",
+            "title": "Mars Rover Discovers Ancient Water Signs",
+            "category": "science",
+            "summary": "NASA’s latest Mars rover finds evidence of ancient water, hinting at past life.",
+            "content": "On February 20, 2025, NASA announced that its Perseverance rover detected mineral deposits on Mars indicating the presence of water billions of years ago. This discovery fuels speculation about potential microbial life and future human exploration.",
+            "author": "Emily Rodriguez",
+            "date": "2025-02-20",
+            "multimedia": [
+                {"type": "image", "src": "https://example.com/mars-rover.jpg", "title": "Mars Rover Findings"},
+                {"type": "audio", "src": "https://example.com/mars-discovery.mp3", "title": "NASA Press Conference"}
+            ],
+            "comments": []
+        },
+        {
+            "id": "4",
+            "title": "AI Predicts Weather Patterns with 99% Accuracy",
+            "category": "technology",
+            "summary": "A new AI model revolutionizes weather forecasting with unprecedented precision.",
+            "content": "Released on February 12, 2025, by WeatherTech AI, a new artificial intelligence system predicts weather patterns with 99% accuracy, enabling better disaster preparedness and agricultural planning. The model uses satellite data and machine learning to outperform traditional methods.",
+            "author": "David Kim",
+            "date": "2025-02-12",
+            "multimedia": [
+                {"type": "video", "src": "https://example.com/ai-weather.mp4", "title": "AI Weather Forecast"},
+                {"type": "image", "src": "https://example.com/weather-tech.jpg", "title": "AI Weather Model"}
+            ],
+            "comments": []
+        }
+    ]
+}
