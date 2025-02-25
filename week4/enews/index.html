@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Magazine</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header role="banner">
@@ -13,36 +12,36 @@
         <nav role="navigation" aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#category/politics">Politics</a></li>
-                <li><a href="index.html#category/technology">Technology</a></li>
-                <li><a href="index.html#category/science">Science</a></li>
-                <li><a href="index.html#multimedia">Multimedia</a></li>
+                <li><a href="#category/politics">Politics</a></li>
+                <li><a href="#category/technology">Technology</a></li>
+                <li><a href="#category/science">Science</a></li>
+                <li><a href="#multimedia">Multimedia</a></li>
             </ul>
         </nav>
         <div class="search-bar" role="search">
-            <input type="search" placeholder="Search articles..." aria-label="Search articles" id="searchInput">
-            <button id="searchButton">Search</button>
+            <input type="search" placeholder="Search articles..." aria-label="Search articles">
+            <button>Search</button>
         </div>
     </header>
     <main id="main-content" role="main">
-        <section class="featured-slider" aria-label="Featured News">
-            <!-- Featured slider content will be loaded dynamically -->
-        </section>
+        <aside class="sidebar" role="complementary">
+            <h2>Breaking News</h2>
+            <h4>PCB shamed, bluntly asked 'if ICC money was utilised' amid Rawalpindi rain: 'SA vs AUS might go down the drain...'</h4>
+            <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1zKjZa.img?w=549&h=309&m=6" style="justify-content: right;">
+        </aside>
+        
         <section class="category-tabs" aria-label="News Categories">
             <ul class="tabs" role="tablist">
-                <li data-category="all" role="tab">All</li>
-                <li data-category="politics" role="tab">Politics</li>
-                <li data-category="technology" role="tab">Technology</li>
-                <li data-category="science" role="tab">Science</li>
+                <li data-category="all" role="tab"></li>
+                <li data-category="politics" role="tab"></li>
+                <li data-category="technology" role="tab"></li>
+                <li data-category="science" role="tab"></li>
             </ul>
             <div class="tab-content" role="tabpanel">
-                <!-- Category articles loaded here -->
+               
             </div>
         </section>
-        <aside class="sidebar" role="complementary">
-            <h2>Popular News</h2>
-            <!-- Popular articles loaded here -->
-        </aside>
+        
     </main>
     <footer role="contentinfo">
         <p>© 2025 E-Magazine. All rights reserved.</p>
