@@ -1,0 +1,18 @@
+<h2>Add New Post</h2>
+<form [formGroup]="postForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="title">Title:</label>
+    <input id="title" formControlName="title">
+    <div *ngIf="postForm.get('title')?.invalid && postForm.get('title')?.touched">
+      Title is required.
+    </div>
+  </div>
+  <div>
+    <label for="body">Body:</label>
+    <textarea id="body" formControlName="body"></textarea>
+    <div *ngIf="postForm.get('body')?.invalid && postForm.get('body')?.touched">
+      Body is required.
+    </div>
+  </div>
+  <button type="submit" [disabled]="postForm.invalid">Add Post</button>
+</form>

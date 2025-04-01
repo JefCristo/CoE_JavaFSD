@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "id": "e3f8",
+      "title": "hello world ",
+      "body": "hello beautiful world!"
+    },
+    {
+      "id": "7d05",
+      "title": "title 2",
+      "body": "to check the inbuilt pipe"
+    }
+  ]
+}

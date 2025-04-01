@@ -1,0 +1,8 @@
+
+<h2>Posts</h2>
+<input [(ngModel)]="searchTerm" placeholder="Search by title">
+<button (click)="logout()">Logout</button>
+
+<div *ngFor="let post of posts | search:searchTerm">
+  <app-post-item [post]="post" (favorite)="onFavorite($event)"></app-post-item>
+</div>

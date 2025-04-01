@@ -1,0 +1,48 @@
+/* General container styles */
+div {
+  text-align: center;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #007bff;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+nav a.active {
+  background-color: #0056b3;
+  color: #fff;
+  border-color: #0056b3;
+}
+
+/* Router outlet container */
+router-outlet {
+  display: block;
+  margin-top: 1rem;
+}
