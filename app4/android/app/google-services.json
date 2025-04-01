@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "32129258368",
+    "project_id": "currencyapp-27e56",
+    "storage_bucket": "currencyapp-27e56.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32129258368:android:584ee87808a56d304a6765",
+        "android_client_info": {
+          "package_name": "com.currency"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz1PvkNGPDLsq-xayDJuDkjA9IwW7S_aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32129258368:android:5792f269ef0ee72e4a6765",
+        "android_client_info": {
+          "package_name": "com.example.app4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz1PvkNGPDLsq-xayDJuDkjA9IwW7S_aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
